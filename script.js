@@ -1,4 +1,5 @@
-let gameAge = 21
+const gameAge = 21
+let userGuess = 'userGuess'
 
 //  The prompt is like a alert/input where the variable is inputted. The do and while allows for a code to run on repeat until the userGuess does equal to gameAge.
 
@@ -12,4 +13,4 @@ do {
     document.getElementById('textbox').innerHTML = 'You did it! The game age is 21!'
     alert('You guessed correct!')
   }
-} while (userGuess != gameAge)
+} while (userGuess !== gameAge)
