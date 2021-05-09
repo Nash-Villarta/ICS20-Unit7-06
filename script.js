@@ -13,4 +13,4 @@ do {
     document.getElementById('textbox').innerHTML = 'You did it! The game age is 21!'
     alert('You guessed correct!')
   }
-} while (userGuess !== gameAge)
+} while (userGuess !== '21')
